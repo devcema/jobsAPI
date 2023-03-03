@@ -104,10 +104,10 @@ paths:
       deprecated: false
       security:
         - bearer: []
-  /jobs/{id}:
+  /jobs/{id1}:
     parameters:
       - in: path
-        name: id
+        name: id1
         schema:
           type: string
         required: true
